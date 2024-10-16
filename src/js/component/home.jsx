@@ -15,7 +15,7 @@ const Home = () => {
 			</div>
 
 
-			<div className="container">
+			<div className="container mt-2">
 
 				<div className=" container-fluid py-5 border  ">
 					<h1 className="display-5 fw-bold">A Warm Welcome!</h1>
@@ -23,7 +23,7 @@ const Home = () => {
 					<button className="btn btn-primary btn-lg" type="button">Call to action!</button>
 				</div>
 
-				<div className="row  d-flex flex-nowrap">
+				<div className="container row">
 					<div className="col">
 						<Card title="Tarea" />
 
@@ -40,9 +40,9 @@ const Home = () => {
 
 				</div>
 
-				<div className="container-fluid d-flex bg-dark ">
-					<footer class="expand-lg bg-body-tertiary">
-						<h6 className="alaing-center text-white">Copyrigth © Your Website 2024</h6>
+				<div className="container  bg-dark mt-2  d-flex justify-content-center">
+					<footer class="expand-lg bg-body-tertiary ">
+						<h6 className=" text-white">Copyrigth © Your Website 2024</h6>
 					</footer>
 				</div >
 
